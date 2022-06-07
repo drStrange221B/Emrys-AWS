@@ -1,0 +1,24 @@
+Notes on AWS
+Application are build on amazon virtual private cloud or Amazon vpc
+Host application on Amazon Elastic Compute Cloud or EC2. EC2 is the service that offers virtual machines 
+databases are hosted on Amazon Relational Database Service or RDS or host on Amazon DynamoDB. we can also use Object Storage Service 
+called Amazon Simple Storage Service i.e Amazon S3
+use amazon cloud Watch for monitorying the solution
+for scalaballity and Fault-tolerant use Elastic Load Balancer which will distribute the traffic accross the EC2 instances
+Add Amazon EC2 Auto Scalling for scaling solution on demand 
+for Security and identity use Amazon identity and Access Management or IAM
+
+Availability Zone: has replicas of data center
+Rezion: has replicas of Availability Zone 
+
+things to consider to choose Region: 
+1) Compliance, 
+2) Latency
+3) Price
+4) Service Availability 
+
+
+ways to interact with the AWS API:
+1) The AWS Management Console
+2) The AWS Command Line Interface
+3) The AWS Software Development Kits
